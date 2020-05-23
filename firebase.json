@@ -1,0 +1,20 @@
+{
+  "hosting": {
+    "public": "public",
+    "ignore": [
+      "firebase.json",
+      "**/.*",
+      "**/node_modules/**"
+    ],
+    "rewrites": [
+      {
+        "source": "**/!(*.css|*.js|*.map|*.jpg|*.gif|*.png|*.php)",
+        "destination": "/index.html"
+      },
+      {
+        "source": "/src/*",
+        "destination": "https://madukelekelebali.web.app/"
+      }
+    ]
+  }
+}
