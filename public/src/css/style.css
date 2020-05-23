@@ -94,8 +94,8 @@ animation: animate 0.8s;
 }
 .card img{
     width: 100%;
-    /* object-position: center;
-    object-fit: cover; */
+    object-position: center;
+    object-fit: cover;
     margin: auto;
     display: block;
     padding:15px 15px 0px 15px;
